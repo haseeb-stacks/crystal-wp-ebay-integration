@@ -5,23 +5,22 @@
  * Description: Sell multichannel on Google, Amazon, eBay & Walmart direct from WooCommerce. Create listings & sync products, inventory & orders directly from WooCommerce
  * Author: wordpress.org
  * Author URI: https://wordpress.org/
- * Version: 1.3.65
+ * Version: 1.0
  * Text Domain: crystaltechify-linq
- * Woo: 3545890:ba4772797f6c2c68c5b8e0b1c7f0c4e2
  * WC requires at least: 2.0.0
  * WC tested up to: 6.3.1
  * License: GPLv2
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
  * @package crystaltechify LINQ by crystaltechify
- * @version 1.3.65
+ * @Version: 1.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'crystaltechifyCONNECT_VERSION', '1.3.65' );
+define( 'crystaltechifyCONNECT_VERSION', '1.0' );
 define( 'crystaltechifyCONNECT_RESELLERKEY', '' );
 
 if ( ! class_exists( 'crystaltechifyConnect' ) ) :
